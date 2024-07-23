@@ -20,8 +20,8 @@ In a software development team, multiple roles work together to build and delive
 
 For this exercise, you will be working in groups, with each member taking on a specific role. Here are the roles and their responsibilities:
 
-- **Lead Programmer:** Writes the main code for the routine.
-- **Assistant Programmer:** Helps the lead programmer and writes supplementary code.
+- **Lead Developer:** Writes the main code for the routine.
+- **Assistant Developer:** Helps the lead programmer and writes supplementary code.
 - **Tester:** Continuously runs the program to check for errors and ensure it meets the requirements.
 - **Documenter:** Keeps track of what has been done, writes comments in the code, and ensures everyone understands the progress.
 - **Project Manager:** Ensures the team is on track, keeps everyone organized, and makes sure all tasks are completed on time.
