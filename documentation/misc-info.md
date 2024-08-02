@@ -1,4 +1,4 @@
-# Environment Setup: Petoi Bittle & Tello Talent
+# Environment Setup: Petoi Bittle
 
 Here's everything you need to do to be able to code the Petoi Bittle robot dog and/or the Tello Talent flying drone.
 
