@@ -1,4 +1,4 @@
-# User Story: Prompt Engineering Workshop
+# User Story: Robot Dog Control With AI & Prompt Engineering
 
 ## Overview
 

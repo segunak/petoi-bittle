@@ -1,4 +1,4 @@
-# User Story: Live Reactions for Robot Dog
+# User Story: Robot Dog Live Reactions
 
 ## Overview
 

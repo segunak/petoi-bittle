@@ -1,12 +1,12 @@
-# Environment Setup: Petoi Bittle
+# General Info: Petoi Bittle
 
-Here's everything you need to do to be able to code the Petoi Bittle robot dog and/or the Tello Talent flying drone.
+Here's everything you need to do to be able to code the Petoi "Bittle X" robot dog.
 
 ## Random Notes
 
 * BiBoard (connects to the Rx and Tx pins)
 * The serial command `kbf` should be backflip and `kff` frontflip based on [Serial Protocol](https://docs.petoi.com/apis/serial-protocol). When using Mind+, the backflip and frontflip skills do not show up in the "perform skill" drop-down list. I was able to get a backflip and frontflip to occur using the command below. You can straight access serial commands using this for workshops where the students are doing block-based programming.
-    ![BackflipAyo](./BackflipInMindPlus.png)
+    ![BackflipAyo](../images/BackflipInMindPlus.png)
 
 ## Setting Up The Devices
 
@@ -33,11 +33,11 @@ Select no to "reset join offsets" and no to "Calibirate IMU" if you're not sure.
 
 The Bittle X uses `BiBoard_V0_1` or `BiBoard_V0_2` as the board version and the `ESP32` as the [development module](https://github.com/PetoiCamp/OpenCatEsp32). Here are the firmware options I've used before that worked for upgrading the firmware on a brand new Bittle X (March 2024). I used `BiBoard_V0_2`, which from the code in the [OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32) repo seems to be their preferred default.
 
-![BittleImage](./FirmwareUpload.png)
+![BittleImage](../images/FirmwareUpload.png)
 
 You can find out what version of the board your Bittle has by looking in this area.
 
-![CheckBoard](./BittleCheckBoard.jpg)
+![CheckBoard](../images/BittleCheckBoard.jpg)
 
 Things to do when setting up a Bittle X.
 
@@ -62,7 +62,7 @@ Note: If you're playing around in Arduino, open the file `OpenCatEsp32.ino` in A
 
 The `OpenCat.h` file in the repo [OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32) tells you what the serial commands are for configuring the board. Follow the instructions at [Upload Sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard) for how to get set up in Arduino for sending commands and configuring the board. Then check the `OpenCat.h` file for the latest commands. You can feed the contents of the file to ChatGPT to get back a list of current serial commands if you don't want to read through the whole thing. Here's me using the `b[0-10]` command to change the volume.
 
-![SerialMonitor](./ChangingVolumeWithSerialMonitor.png)
+![SerialMonitor](../images/ChangingVolumeWithSerialMonitor.png)
 
 ## Voice Commands
 

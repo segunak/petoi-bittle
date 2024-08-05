@@ -1,4 +1,4 @@
-# Sending Skills
+# Informational: Sending Skills to the Robot Dog
 
 ## The `sendSkillStr` Function
 
