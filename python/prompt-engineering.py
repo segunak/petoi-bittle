@@ -4,7 +4,6 @@ from PetoiRobot import *
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# Load the .env file
 load_dotenv()
 open_ai_api_key = os.getenv('OPENAI_API_KEY')
 openai_client = OpenAI(api_key=open_ai_api_key)
@@ -51,7 +50,25 @@ skill_commands = {
     "trot left": "ktrL",
     "trot right": "ktrR",
     "back flip": "kbf",
-    "front flip": "kff"
+    "front flip": "kff",
+    "balance": "kbalance",
+    "bound forward": "kbdF",
+    "angry": "kang",
+    "calibration pose": "kcalib",
+    "dropped by back legs": "kdropped",
+    "lifted by neck": "klifted",
+    "landing pose": "klnd",
+    "gap forward": "kgpF",
+    "gap left": "kgpL",
+    "halloween gait": "khlw",
+    "jump forward": "kjpF",
+    "push ups with one hand": "kpu1",
+    "recover": "krc",
+    "roll": "krl",
+    "be table": "ktbl",
+    "test": "kts",
+    "wave head": "kwh",
+    "all joint at 0 degrees": "kzz"
 }
 
 def translate_to_robot_command(natural_language_command):
@@ -107,7 +124,7 @@ def translate_to_robot_command(natural_language_command):
     ]
 
     response = openai_client.chat.completions.create(
-        model="gpt-4-turbo",
+        model="gpt-4o",
         messages=messages
     )
     
