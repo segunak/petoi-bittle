@@ -22,7 +22,7 @@ Each level introduces a progressively more abstracted form of controlling the ro
 - Laptops/Desktops with Python and Mind+ IDE. 1 laptop per 4-5 students.
 - Printed Serial Protocol documentation from Petoi found at <https://docs.petoi.com/apis/serial-protocol>.
 - Mind+ IDE on computers.
-- Arduino installed on computers.
+- Visual Studio Code installed on the computers.
 - Python installed on computers.
 - AI Interface for prompt engineering (could be a simple web interface or connected via VS Code).
 - Projector for demonstrating concepts and results.
@@ -44,7 +44,7 @@ Introduce students to low-level programming by sending commands directly to the 
 
 ### Hands-On Activity
 
-For details on sending serial protocol commands to the Petoi Bittle using Arduino, see <https://docs.petoi.com/arduino-ide/serial-monitor>.
+For details on sending serial protocol commands to the Petoi Bittle using Arduino, see <https://docs.petoi.com/arduino-ide/serial-monitor>. For details on sending serial protocol commands using Python (such as via a terminal in VS Code), see <https://docs.petoi.com/apis/python-api>.
 
 1. **Demo**: At the front of the room, demo sending a command via Serial Protocol to the robot dog, such as making it sit down or stand up.
 2. **Task**: Now, let the students explore. Provide each group with printed copies of the Serial Protocol documentation and ask them to control the robot dog themselves. A part of this exercise is getting them familiar with reading and understanding technical documentation, which is a fundamental part of programming. With the robot dog, they should perform the following actions:
