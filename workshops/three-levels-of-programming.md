@@ -383,6 +383,7 @@ Deliver these while the students are experimenting.
 - Prompt Engineering allows us to **program without writing code**, but it's built on a deep understanding of how programming and machines work.
 - Discuss how **AI is an assistant, not a replacement** for human intelligence.
 - Highlight how we are still in control – the human knowledge behind coding is essential to teach AI.
+- Make the connection that Serial Protocol is like driving stick shift, High-Level Programming Languages is like driving automatic, and AI-Assisted Programming is like Tesla's driver assistance tech that makes driving way easier, but still requires human oversight.
   
 ### Discussion
 
