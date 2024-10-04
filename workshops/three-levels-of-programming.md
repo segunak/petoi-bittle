@@ -19,12 +19,13 @@ Each level introduces a progressively more abstracted form of controlling the ro
 ## Materials
 
 - 1 Petoi Bittle Robot Dog per 4-5 students.
-- Laptops/Desktops with Python and Mind+ IDE. 1 laptop per 4-5 students.
+- Laptops/Desktops. 1 laptop per 4-5 students.
 - Printed Serial Protocol documentation from Petoi found at <https://docs.petoi.com/apis/serial-protocol>.
-- Mind+ IDE on computers.
-- Visual Studio Code installed on the computers.
+- Mind+ and/or Visual Studio Code IDE installed on computers.
 - Python installed on computers.
-- AI Interface for prompt engineering (could be a simple web interface or connected via VS Code).
+- Python packages `openai`, and `dotenv` installed via `pip`.
+- The `PetoiRobot`, `SerialCommunication`, and `ardSerial` modules from Petoi, found at <https://github.com/PetoiCamp/Petoi_MindPlusLib/tree/main/python/libraries>.
+- An OpenAI API key listed in a `.ENV` file that you **really should delete after the workshop**. You can get one at <https://platform.openai.com/api-keys>.
 - Projector for demonstrating concepts and results.
 
 ---
@@ -81,7 +82,7 @@ Transition from Serial Protocol to writing code in Python. Students will replica
 ### Introduction
 
 - Start by discussing **modern programming** and how languages like Python make coding more accessible.
-- Introduce **Mind+** and explain that it's an Integrated Development Environment, or IDE. It's a tool we can use to write and test Python code specifically built for the Petoi Bittle Robot Dog.
+- If you're using it, introduce **Mind+** and explain that it's an Integrated Development Environment, or IDE. It's a tool we can use to write and test Python code specifically built for the Petoi Bittle Robot Dog.
 - Mention that most of the software engineers working today use IDEs like **Visual Studio Code**.
 - Explain the **compilation process** – how Python code must still be translated down into something the computer understands (binary, machine code), just like the serial commands.
   - **Python's process**: When you run Python code, it is first translated into **bytecode** (an intermediate form). This bytecode is then processed by the **Python Virtual Machine (PVM)**, which ultimately instructs the computer on what to do. While not as low-level as binary, there's still a translation step involved, similar to how serial protocol commands are understood by the robot dog.
